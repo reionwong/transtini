@@ -2,11 +2,9 @@
 
 A simple dictionary/translator that uses epc communication.
 
-![](screenshot.png)
-
 ## Installation
 
-* 1. Python dependencies: `pip3 install epc bs4`
+* 1. Python dependencies: `pip3 install epc bs4 requests-cache`
 
 * 2. Elisp dependencies
 

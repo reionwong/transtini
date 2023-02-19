@@ -4,12 +4,9 @@ A simple dictionary/translator that uses epc communication.
 
 ## Installation
 
-* 1. Python dependencies: `pip3 install epc bs4 requests-cache`
+* Python dependencies: `pip3 install epc bs4 requests-cache`
 
-* 2. Elisp dependencies
-
-+ [posframe](https://github.com/tumashu/posframe)
-+ [epc](https://github.com/kiwanami/emacs-epc)
+* Elisp dependencies: [posframe](https://github.com/tumashu/posframe), [epc](https://github.com/kiwanami/emacs-epc)
 
 ```elisp
 (require 'transtini)

@@ -2,6 +2,8 @@
 
 A simple dictionary/translator that uses epc communication.
 
+![](screenshot.png)
+
 ## Installation
 
 * Python dependencies: `pip3 install epc bs4 requests-cache`

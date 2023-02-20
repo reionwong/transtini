@@ -4,7 +4,12 @@ from epc.server import EPCServer
 from bs4 import BeautifulSoup
 
 # session = requests.Session()
-session = requests_cache.CachedSession('transtini_cache')
+session = requests_cache.CachedSession(
+    'transtini_cache',
+    use_cache_dir=True,
+    cache_control=True,
+    expire_after=timedelta(days=30)
+)
 server = EPCServer(('localhost', 0))
 
 @server.register_function
